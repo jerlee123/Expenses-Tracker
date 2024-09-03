@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "892044025528",
+    "project_id": "my-app-ha4f1a",
+    "storage_bucket": "my-app-ha4f1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892044025528:android:f1d545ffbdb1b248eb1e4d",
+        "android_client_info": {
+          "package_name": "com.example.expensestracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDxDmUN0CnLKKQgQHf16WzO1kb37GCZPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892044025528:android:babaffedda283b02eb1e4d",
+        "android_client_info": {
+          "package_name": "com.mycompany.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDxDmUN0CnLKKQgQHf16WzO1kb37GCZPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
