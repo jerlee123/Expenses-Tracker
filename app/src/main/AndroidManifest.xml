@@ -13,6 +13,24 @@
         android:theme="@style/Theme.ExpensesTracker"
         tools:targetApi="31">
         <activity
+            android:name=".transaction.transaction_main"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.transaction_home"
+            android:exported="false" />
+        <activity
+            android:name=".IncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsightsAvtivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.Profile"
+            android:exported="false" />
+        <activity
             android:name=".CategoryActivity"
             android:exported="false" />
         <activity

@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:background="#AF4D4D"
+    tools:context=".transaction.transaction_main">
+
+    <ScrollView
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:id="@+id/rcxd28xcvus"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:paddingVertical="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ruildug34pb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="24dp"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/rcppxhhwka6c"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@android:drawable/ic_delete"
+                    android:orientation="vertical"></LinearLayout>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/ruqq7vpfwn8g"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/calendar_corners"
+                    android:elevation="4dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="15dp">
+
+                    <ImageView
+                        android:id="@+id/r6jjusqqzcwd"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/arrow_left" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/rocva0htmy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="September 2024"
+                        android:textColor="#0A0A0C"
+                        android:textSize="12sp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/rvk80iyr3v9j"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/rqhszlbzyml"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="3dp">
+
+                    <ImageView
+                        android:id="@+id/r17zury2r92d"
+                        android:layout_width="match_parent"
+                        android:layout_height="19dp"
+                        android:layout_marginTop="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/filter" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/rokjqznmyplr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="163dp"
+                android:layout_marginBottom="22dp"
+                android:text="26 September"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/rcvgdechui37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/corners"
+                android:elevation="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="17dp"
+                android:paddingVertical="14dp">
+
+                <LinearLayout
+                    android:id="@+id/ryh5u60bxrl"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="15dp">
+
+                    <ImageView
+                        android:id="@+id/roc4eutj7n7r"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/shopping_bag" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/r15ocbz71mjc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rk7bpx5dsu5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="13dp"
+                        android:text="Shopping"
+                        android:textColor="#292B2D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/rypxxfx4m7ir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy some grocery"
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/r0dpq6uufxrb"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/r8y2b84kc8g3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="19dp"
+                        android:text="- $120"
+                        android:textColor="#FD3C4A"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/rnz95pz76j79"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10:00 AM"
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rgn5ifvcn5l8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/corners"
+                android:elevation="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="17dp"
+                android:paddingVertical="14dp">
+
+                <LinearLayout
+                    android:id="@+id/rmxbf6cv9ifi"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="18dp">
+
+                    <ImageView
+                        android:id="@+id/r9rvrvbibsvv"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="14dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/investment" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rctyl5avhrve"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/r291xgycnpfn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="13dp"
+                        android:text="Subscription"
+                        android:textColor="#292B2D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/r0xpmcbmhoo8r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Disney+ Annual.."
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rjkozuxwa1mn"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/r862oai1r7y4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="19dp"
+                        android:text="- $80"
+                        android:textColor="#FD3C4A"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/razw7doa78y7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="03:30 PM"
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/riyqnmb3thx9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/corners"
+                android:elevation="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="17dp"
+                android:paddingVertical="14dp">
+
+                <LinearLayout
+                    android:id="@+id/ryeizess999"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="17dp">
+
+                    <ImageView
+                        android:id="@+id/r9m0i7y8jm3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/restaurant" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/r036ejk0dntvg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rd1ru9k7kdqi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="13dp"
+                        android:text="Food"
+                        android:textColor="#292B2D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/rzlw35mn074p"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy a ramen"
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rwqgyl7q2wxo"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rn6acazv8pq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="19dp"
+                        android:text="- $32"
+                        android:textColor="#FD3C4A"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/rimvpm9swyvg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="07:30 PM"
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/r6xlorotwtnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="163dp"
+                android:layout_marginBottom="22dp"
+                android:text="27 September"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/rlq3gtog9ea8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/corners"
+                android:elevation="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="17dp"
+                android:paddingVertical="14dp">
+
+                <LinearLayout
+                    android:id="@+id/rc2ezvm1csel"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="15dp">
+
+                    <ImageView
+                        android:id="@+id/rlixpewli1s9"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/shopping_bag" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/reqbk0lbm1ij"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rp1ni2jhngqc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="13dp"
+                        android:text="Shopping"
+                        android:textColor="#292B2D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/red0qej4aeh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy some grocery"
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rp22ofxvsrh"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rh27zym3nnnd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="19dp"
+                        android:text="- $120"
+                        android:textColor="#FD3C4A"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/r87j8tj20gfr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10:00 AM"
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rfnb1f7ub8qr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/corners"
+                android:elevation="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="17dp"
+                android:paddingVertical="14dp">
+
+                <LinearLayout
+                    android:id="@+id/rtdbd3hvtptj"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="18dp">
+
+                    <ImageView
+                        android:id="@+id/rcstwl5xjp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="14dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/investment" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rpwmktx1oinc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rrovj81zg4n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="13dp"
+                        android:text="Subscription"
+                        android:textColor="#292B2D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/rxjd7k8qralk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Disney+ Annual.."
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rdhko67kvq95"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rvfplrsdyjp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="19dp"
+                        android:text="- $80"
+                        android:textColor="#FD3C4A"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/renhx4mob9tb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="03:30 PM"
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rzs93g60dpe9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/corners"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:elevation="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="14dp"
+                android:paddingLeft="17dp">
+
+                <LinearLayout
+                    android:id="@+id/rr5mldf5r9yq"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="17dp">
+
+                    <ImageView
+                        android:id="@+id/rj49de6h5wbi"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/restaurant" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rriikx5xacx"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rx1fzs1hvno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="13dp"
+                        android:text="Food"
+                        android:textColor="#292B2D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/rh84x388xyd6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy a ramen"
+                        android:textColor="#90909F"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/r5c6imanq4w5"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/rvkviplgpqci"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:paddingBottom="16dp">
+
+                        <TextView
+                            android:id="@+id/rqaveaxv35wd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
+                            android:text="- $32"
+                            android:textColor="#FD3C4A"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/rpiw3nta2d2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="07:30 PM"
+                            android:textColor="#90909F"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/transaction_main_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
