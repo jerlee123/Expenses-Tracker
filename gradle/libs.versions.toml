@@ -1,5 +1,5 @@
 [versions]
-agp = "8.5.2"
+agp = "8.6.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -18,6 +18,17 @@ playServicesCastFramework = "21.5.0"
 glide = "5.0.0-rc01"
 firebaseFirestore = "25.1.0"
 firebaseStorage = "21.0.0"
+firebaseCore = "21.1.1"
+recyclerviewSelection = "1.2.0-alpha01"
+recyclerview = "1.3.2"
+recyclerviewVersion = "1.4.0-beta01"
+androidxRecyclerview = "1.3.1"
+androidxRecyclerviewVersion = "1.2.1"
+androidxRecyclerviewRecyclerview = "1.3.2"
+cardview = "1.0.0"
+firebaseAppcheck = "18.0.0"
+firebaseAppcheckPlayintegrity = "18.0.0"
+firebaseAppcheckVersion = "18.0.0"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -37,6 +48,17 @@ play-services-cast-framework = { group = "com.google.android.gms", name = "play-
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
 firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
 firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+firebase-core = { group = "com.google.firebase", name = "firebase-core", version.ref = "firebaseCore" }
+recyclerview-selection = { group = "androidx.recyclerview", name = "recyclerview-selection", version.ref = "recyclerviewSelection" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerviewVersion" }
+androidx-recyclerview-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "androidxRecyclerview" }
+androidx-recyclerview-recyclerview2 = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "androidxRecyclerviewVersion" }
+androidx-recyclerview-recyclerview3 = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "androidxRecyclerviewRecyclerview" }
+androidx-cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+firebase-appcheck = { group = "com.google.firebase", name = "firebase-appcheck", version = "17.1.0" }
+firebase-appcheck-playintegrity = { group = "com.google.firebase", name = "firebase-appcheck-playintegrity", version.ref = "firebaseAppcheckPlayintegrity" }
+google-firebase-appcheck = { group = "com.google.firebase", name = "firebase-appcheck", version = "17.1.1" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
