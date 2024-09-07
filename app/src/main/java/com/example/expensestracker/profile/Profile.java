@@ -1,6 +1,5 @@
 package com.example.expensestracker.profile;
 
-
 //import static com.google.android.gms.cast.framework.media.ImagePicker.*;
 import com.example.expensestracker.LoginActivity;
 import com.github.dhaval2404.imagepicker.ImagePicker;
@@ -14,18 +13,14 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-
 import com.example.expensestracker.R;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 //import com.google.android.gms.cast.framework.media.ImagePicker;
-
 
 public class Profile extends AppCompatActivity {
     FirebaseAuth mFirebaseAuth;
@@ -35,11 +30,9 @@ public class Profile extends AppCompatActivity {
     Button updateProfileBtn;
     TextView logoutBtn;
 
-
     userModel currentUserModel;
     ActivityResultLauncher<Intent> imagePickLauncher;
     Uri selectedImageUri;
-
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -56,7 +49,6 @@ public class Profile extends AppCompatActivity {
         // Set the logout button click listener
         logoutBtn.setOnClickListener(v -> logout());
 
-
         // Image picker launcher for selecting profile picture
         imagePickLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(),
                 result -> {
@@ -70,20 +62,8 @@ public class Profile extends AppCompatActivity {
                 }
         );
 
-
-        // Initialize FirebaseAuth
-        FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
-        FirebaseUser currentUser = firebaseAuth.getCurrentUser();
-        if (currentUser != null) {
-            usernameInput.setText(currentUser.getEmail());
-            currentUserModel = new userModel(); // Or however you get the UserModel instance
-        } else {
-            usernameInput.setText("No email found");
-            currentUserModel = new userModel();
-        }
         // Update profile button click listener
         updateProfileBtn.setOnClickListener(v -> updateBtnClick());
-
 
         // Profile picture click listener for changing profile picture
         profilePic.setOnClickListener(v -> {
@@ -95,47 +75,34 @@ public class Profile extends AppCompatActivity {
         });
     }
 
-
     void updateBtnClick() {
         String newUsername = usernameInput.getText().toString();
         if(newUsername.isEmpty() || newUsername.length() < 3) {
             usernameInput.setError("Username length should be at least 3 chars");
             return;
         }
+        currentUserModel.setUsername(newUsername);
+        setInProgress(true);
 
-        if (currentUserModel != null) {
-            currentUserModel.setUsername(newUsername);
-            setInProgress(true);
-
-            if(selectedImageUri != null) {
-                FirebaseUtil.getCurrentProfilePicStorageRef().putFile(selectedImageUri)
-                        .addOnCompleteListener(task -> {
-                            // After image is uploaded, update other fields
-                            updateToFirestore();
-                        });
-            } else {
-                updateToFirestore();
-            }
+        if(selectedImageUri != null) {
+            FirebaseUtil.getCurrentProfilePicStorageRef().putFile(selectedImageUri)
+                    .addOnCompleteListener(task -> {
+                        // After image is uploaded, update other fields
+                        updateToFirestore();
+                    });
         } else {
-            // Handle the case when currentUserModel is null
-            ProfileUtil.showToast(this, "User model is not initialized");
+            updateToFirestore();
         }
     }
 
-
-
     void logout() {
         mFirebaseAuth.signOut();
-
 
         // Redirect to LoginActivity
         Intent intent = new Intent(Profile.this, LoginActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }
-
-
-
 
     // Method to update the user details in Firestore
     void updateToFirestore() {
@@ -149,7 +116,6 @@ public class Profile extends AppCompatActivity {
                     }
                 });
     }
-
 
     // Method to show or hide progress
     void setInProgress(boolean inProgress) {

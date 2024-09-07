@@ -37,7 +37,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:id="@+id/main_transaction_back_btn"
+                    android:id="@+id/rcppxhhwka6c"
                     android:layout_width="15dp"
                     android:layout_height="15dp"
                     android:background="@android:drawable/ic_delete"
@@ -211,7 +211,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/card_view"
+                android:id="@+id/rgn5ifvcn5l8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
@@ -232,7 +232,7 @@
                     android:paddingHorizontal="18dp">
 
                     <ImageView
-                        android:id="@+id/icon"
+                        android:id="@+id/r9rvrvbibsvv"
                         android:layout_width="match_parent"
                         android:layout_height="32dp"
                         android:layout_marginTop="14dp"
@@ -251,7 +251,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/category"
+                        android:id="@+id/r291xgycnpfn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="13dp"
@@ -277,7 +277,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/amount"
+                        android:id="@+id/r862oai1r7y4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="19dp"
@@ -286,7 +286,7 @@
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/datetime"
+                        android:id="@+id/razw7doa78y7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="03:30 PM"
@@ -664,6 +664,14 @@
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/transaction_main_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@android:drawable/ic_input_add" />
 
         </LinearLayout>
     </ScrollView>

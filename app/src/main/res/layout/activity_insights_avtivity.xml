@@ -40,9 +40,9 @@
                     android:orientation="horizontal">
 
                     <LinearLayout
-                        android:id="@+id/btn_close_insight"
-                        android:layout_width="10dp"
-                        android:layout_height="20dp"
+                        android:id="@+id/rkn6tapteqy"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
                         android:layout_marginEnd="28dp"
                         android:background="@drawable/baseline_close_24"
                         android:orientation="vertical"></LinearLayout>
@@ -104,7 +104,7 @@
                     android:orientation="horizontal">
 
                     <LinearLayout
-                        android:id="@+id/btn_insight_expense"
+                        android:id="@+id/rh1yq1md5aik"
                         android:layout_width="169dp"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -133,15 +133,14 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         />
-
                     <LinearLayout
-                        android:id="@+id/btn_insight_income"
+                        android:id="@+id/rm433m04z8s"
                         android:layout_width="169dp"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/cr1000bf35288"
                         android:gravity="center"
-                        android:orientation="horizontal"
-                        android:paddingVertical="9dp">
+                        android:background="@drawable/cr1000bffffff"
+                        android:paddingVertical="9dp"
+                        android:orientation="horizontal">
 
                         <ImageView
                             android:id="@+id/ruvauir54md"
@@ -150,14 +149,14 @@
                             android:layout_marginEnd="12dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/baseline_attach_money_24" />
-
                         <TextView
                             android:id="@+id/rrx3qpuw7ejf"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Income"
                             android:textColor="#000000"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Income"
+                            />
                     </LinearLayout>
                 </LinearLayout>
                 <RelativeLayout
@@ -201,23 +200,44 @@
                             android:layout_weight="1"
                             />
                         <RelativeLayout
+                            xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
                             android:id="@+id/rs69szok8we_rl"
                             android:layout_width="200dp"
                             android:layout_height="200dp"
                             >
-
                             <com.google.android.material.imageview.ShapeableImageView
                                 android:id="@+id/rs69szok8we"
                                 android:layout_width="200dp"
                                 android:layout_height="200dp"
+                                android:src="@mipmap/ic_launcher"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/chart" />
+                                />
                             <LinearLayout
                                 android:paddingTop="23dp"
                                 android:paddingBottom="5dp"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:orientation="vertical"/>
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:id="@+id/rubllyt828z"
+                                    android:layout_width="13dp"
+                                    android:layout_height="13dp"
+                                    android:layout_marginBottom="146dp"
+                                    android:layout_marginHorizontal="22dp"
+                                    android:src="@mipmap/ic_launcher"
+                                    android:scaleType="fitXY"
+                                    />
+                                <ImageView
+                                    android:id="@+id/rk13sbo633n9"
+                                    android:layout_width="13dp"
+                                    android:layout_height="13dp"
+                                    android:layout_marginHorizontal="49dp"
+                                    android:src="@mipmap/ic_launcher"
+                                    android:scaleType="fitXY"
+                                    />
+                            </LinearLayout>
                         </RelativeLayout>
                         <View
                             android:layout_width="0dp"
@@ -250,6 +270,15 @@
                         </LinearLayout>
                     </LinearLayout>
 
+                    <ImageView
+                        android:id="@+id/roab7w46slm"
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="93dp"
+                        android:layout_marginEnd="37dp"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher" />
                 </RelativeLayout>
 
                 <ImageView
@@ -292,23 +321,22 @@
                     android:layout_marginHorizontal="20dp"
                     android:elevation="4dp"
                     android:orientation="horizontal">
-
                     <LinearLayout
                         android:id="@+id/rum9f47bv97"
-                        android:layout_width="64dp"
-                        android:layout_height="50dp"
-                        android:layout_marginEnd="19dp"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/cr16bfceed3"
-                        android:orientation="vertical"
-                        android:paddingHorizontal="15dp">
+                        android:paddingHorizontal="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:id="@+id/rlyoajhpmlyc"
-                            android:layout_width="37dp"
-                            android:layout_height="24dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
                             android:layout_marginTop="15dp"
                             android:scaleType="fitXY"
-                            android:src="@drawable/shopping_bag" />
+                            android:src="@drawable/baseline_shopping_basket_24" />
                     </LinearLayout>
                     <TextView
                         android:id="@+id/roz9d2bycs3p"

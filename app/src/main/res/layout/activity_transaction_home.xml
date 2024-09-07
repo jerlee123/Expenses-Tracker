@@ -94,7 +94,6 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/account_profile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
@@ -112,7 +111,14 @@
                     android:layout_height="51dp"
                     android:layout_marginEnd="7dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/ezpost_icon_image_company" />
+                    android:src="@drawable/ezpost_icon_image_company"/>
+
+                <Button
+                    android:id="@+id/btn_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Profile" />
 
                 <TextView
                     android:layout_width="wrap_content"
