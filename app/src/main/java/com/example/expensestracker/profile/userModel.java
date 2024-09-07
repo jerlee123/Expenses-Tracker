@@ -4,14 +4,16 @@ public class userModel {
     private String phone;
     private String username;
     private String userId;
+    private String profilePicUrl;
+
 
     public userModel() {
     }
 
-    public userModel(String phone, String username, String userId) {
+    public userModel(String phone, String username, String userId, String profilePicUrl) {
         this.phone = phone;
         this.username = username;
-
+        this.profilePicUrl = profilePicUrl;
         this.userId = userId;
     }
 
@@ -38,4 +40,12 @@ public class userModel {
         this.userId = userId;
     }
 
+    // Getter and Setter for profilePicUrl
+    public String getProfilePicUrl() {
+        return profilePicUrl;
+    }
+
+    public void setProfilePicUrl(String profilePicUrl) {
+        this.profilePicUrl = profilePicUrl;
+    }
 }

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,7 +15,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 public class transaction_home extends AppCompatActivity {
 
     FloatingActionButton fabAddTransHome;
-    Button btnProfileTrans;
+    LinearLayout btnProfileTrans;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,7 @@ public class transaction_home extends AppCompatActivity {
             }
         });
 
-        btnProfileTrans = (Button) findViewById(R.id.btn_profile);
+        btnProfileTrans = (LinearLayout) findViewById(R.id.account_profile);
 
         btnProfileTrans.setOnClickListener(new View.OnClickListener() {
             @Override
